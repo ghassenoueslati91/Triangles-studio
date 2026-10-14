@@ -34,6 +34,10 @@ In the rest of this file, `explainroo` means whichever one you found: the
 
 > Pinned to upstream commit `264aa34` (v0.3.0, MIT — see `LICENSE` beside this file),
 > the version this project reviewed. Bump the hash deliberately when upgrading.
+>
+> Behind an HTTPS proxy (e.g. Claude Code cloud sessions), Node's built-in fetch ignores
+> `HTTPS_PROXY`, so model downloads fail with `fetch failed`. Prefix explainroo commands
+> with `NODE_USE_ENV_PROXY=1` (Node >= 22.21).
 
 ## Read AGENTS.md
 
