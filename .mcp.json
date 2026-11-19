@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mcp-marketplace": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://mcp-marketplace.io/api/mcp/mcp"]
+    }
+  }
+}
